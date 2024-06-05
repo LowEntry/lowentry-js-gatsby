@@ -1,0 +1,42 @@
+{
+  "name": "@lowentry/gatsby",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Provides utilities for Gatsby.",
+  "author": "Low Entry",
+  "license": "MIT",
+  "keywords": [
+    "gatsby",
+    "plugin",
+    "utility",
+    "utilities"
+  ],
+  "homepage": "https://github.com/LowEntry/lowentry-js-gatsby",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LowEntry/lowentry-js-gatsby.git"
+  },
+  "scripts": {
+    "test": "node --check index.js"
+  },
+  "dependencies": {
+    "@lowentry/react-redux": "^1",
+    "gatsby": "^5",
+    "gatsby-omni-font-loader": "*",
+    "gatsby-plugin-automatic-importer": "*",
+    "gatsby-plugin-image": "^3",
+    "gatsby-plugin-less": "^7",
+    "gatsby-plugin-manifest": "^5",
+    "gatsby-plugin-offline": "^6",
+    "gatsby-plugin-sass": "^6",
+    "gatsby-plugin-sharp": "^5",
+    "gatsby-source-filesystem": "^5",
+    "gatsby-transformer-sharp": "^5"
+  },
+  "overrides": {
+    "react-server-dom-webpack@0.0.0-experimental-c8b778b7f-20220825": {
+      "react": "^18"
+    }
+  }
+}

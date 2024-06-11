@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 
-export const Plugins = ({precachePages, manifestOptions, googleFonts, workerLibraries}) => [
+exports.Plugins = ({precachePages, manifestOptions, googleFonts, workerLibraries}) => ([
 	{
 		resolve:'gatsby-source-filesystem',
 		options:{
@@ -86,4 +86,4 @@ export const Plugins = ({precachePages, manifestOptions, googleFonts, workerLibr
 			},
 		},
 	},
-];
+]);

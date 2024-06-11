@@ -2,7 +2,6 @@
   "name": "@lowentry/gatsby",
   "version": "1.0.1",
   "private": false,
-  "type": "module",
   "description": "Provides utilities for Gatsby.",
   "author": "Low Entry",
   "license": "MIT",

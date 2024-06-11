@@ -1,6 +1,6 @@
 {
   "name": "@lowentry/gatsby",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "Provides utilities for Gatsby.",
   "author": "Low Entry",

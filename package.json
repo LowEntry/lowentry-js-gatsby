@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@lowentry/react-redux": "^1",
-    "gatsby": "^5",
+    "gatsby": "^5.3",
     "gatsby-omni-font-loader": "*",
     "gatsby-plugin-automatic-importer": "*",
     "gatsby-plugin-image": "^3",

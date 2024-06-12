@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@lowentry/react-redux": "^1",
+    "@lowentry/utils": "*",
     "gatsby": "^5.3",
     "gatsby-omni-font-loader": "*",
     "gatsby-plugin-automatic-importer": "*",

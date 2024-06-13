@@ -21,6 +21,7 @@
     "test": "node --check gatsby-config.mjs"
   },
   "dependencies": {
+    "gatsby": "^5.3",
     "gatsby-omni-font-loader": "*",
     "gatsby-plugin-automatic-importer": "*",
     "gatsby-plugin-image": "^3",
@@ -33,7 +34,17 @@
     "gatsby-transformer-sharp": "^5"
   },
   "peerDependencies": {
-    "gatsby": "^5.3"
+    "gatsby": "^5.3",
+    "gatsby-omni-font-loader": "*",
+    "gatsby-plugin-automatic-importer": "*",
+    "gatsby-plugin-image": "^3",
+    "gatsby-plugin-less": "^7",
+    "gatsby-plugin-manifest": "^5",
+    "gatsby-plugin-offline": "^6",
+    "gatsby-plugin-sass": "^6",
+    "gatsby-plugin-sharp": "^5",
+    "gatsby-source-filesystem": "^5",
+    "gatsby-transformer-sharp": "^5"
   },
   "overrides": {
     "react-server-dom-webpack@0.0.0-experimental-c8b778b7f-20220825": {

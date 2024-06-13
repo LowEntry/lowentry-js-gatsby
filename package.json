@@ -18,9 +18,9 @@
     "url": "git+https://github.com/LowEntry/lowentry-js-gatsby.git"
   },
   "scripts": {
-    "test": "node --check index.js"
+    "test": "node --check gatsby-config.mjs"
   },
-  "dependencies": {
+  "peerDependencies": {
     "@lowentry/react-redux": "^1",
     "@lowentry/utils": "*",
     "gatsby": "^5.3",

@@ -20,10 +20,7 @@
   "scripts": {
     "test": "node --check gatsby-config.mjs"
   },
-  "peerDependencies": {
-    "@lowentry/react-redux": "^1",
-    "@lowentry/utils": "*",
-    "gatsby": "^5.3",
+  "dependencies": {
     "gatsby-omni-font-loader": "*",
     "gatsby-plugin-automatic-importer": "*",
     "gatsby-plugin-image": "^3",
@@ -34,6 +31,9 @@
     "gatsby-plugin-sharp": "^5",
     "gatsby-source-filesystem": "^5",
     "gatsby-transformer-sharp": "^5"
+  },
+  "peerDependencies": {
+    "gatsby": "^5.3"
   },
   "overrides": {
     "react-server-dom-webpack@0.0.0-experimental-c8b778b7f-20220825": {

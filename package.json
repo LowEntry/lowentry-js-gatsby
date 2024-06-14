@@ -3,6 +3,7 @@
   "version": "1.0.12",
   "private": false,
   "type": "module",
+  "main": "./index.js",
   "description": "Provides utilities for Gatsby.",
   "author": "Low Entry",
   "license": "MIT",

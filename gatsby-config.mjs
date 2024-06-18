@@ -73,6 +73,13 @@ export const Plugins = ({precachePages, manifestOptions, googleFonts, workerLibr
 		},
 	},
 	{
+		resolve:'gatsby-plugin-robots-txt',
+		options:{
+			policy:[{userAgent:'*', allow:'/'}],
+		},
+	},
+	'gatsby-plugin-sitemap',
+	{
 		resolve:'gatsby-plugin-offline',
 		options:{
 			precachePages:['/*', ...(precachePages ?? [])],

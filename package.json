@@ -29,8 +29,10 @@
     "gatsby-plugin-less": "^7",
     "gatsby-plugin-manifest": "^5",
     "gatsby-plugin-offline": "^6",
+    "gatsby-plugin-robots-txt": "^1",
     "gatsby-plugin-sass": "^6",
     "gatsby-plugin-sharp": "^5",
+    "gatsby-plugin-sitemap": "^6",
     "gatsby-source-filesystem": "^5",
     "gatsby-transformer-sharp": "^5"
   },
@@ -42,8 +44,10 @@
     "gatsby-plugin-less": "^7",
     "gatsby-plugin-manifest": "^5",
     "gatsby-plugin-offline": "^6",
+    "gatsby-plugin-robots-txt": "^1",
     "gatsby-plugin-sass": "^6",
     "gatsby-plugin-sharp": "^5",
+    "gatsby-plugin-sitemap": "^6",
     "gatsby-source-filesystem": "^5",
     "gatsby-transformer-sharp": "^5"
   },

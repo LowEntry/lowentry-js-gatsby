@@ -1,7 +1,7 @@
 import fs from 'fs';
 
 
-export const Plugins = ({precachePages, manifestOptions, googleFonts, workerLibraries}) => ([
+export const Plugins = ({precachePages, manifestOptions, googleFonts, workerLibraries, disableOfflineSupport}) => ([
 	{
 		resolve:'gatsby-source-filesystem',
 		options:{
@@ -79,7 +79,7 @@ export const Plugins = ({precachePages, manifestOptions, googleFonts, workerLibr
 		},
 	},
 	'gatsby-plugin-sitemap',
-	{
+	(disableOfflineSupport ? 'gatsby-plugin-remove-serviceworker' : {
 		resolve:'gatsby-plugin-offline',
 		options:{
 			precachePages:['/*', ...(precachePages ?? [])],
@@ -92,5 +92,5 @@ export const Plugins = ({precachePages, manifestOptions, googleFonts, workerLibr
 				],
 			},
 		},
-	},
+	}),
 ]);

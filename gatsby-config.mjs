@@ -2,13 +2,6 @@ import fs from 'fs';
 
 
 export const Plugins = ({precachePages, manifestOptions, googleFonts, workerLibraries, disableOfflineSupport, disablePwaSupport}) => ([
-	{
-		resolve:'gatsby-source-filesystem',
-		options:{
-			'name':'images',
-			'path':'./src/images/',
-		},
-	},
 	'gatsby-plugin-sharp',
 	'gatsby-transformer-sharp',
 	'gatsby-plugin-image',
